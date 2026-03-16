@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone') {
             steps {
-                git url: 'https://github.com/chinpatel17/lab3.git',
+                git url: 'https://github.com/darshant143143/laabb.git',
                     branch: 'main'
             }
         }
